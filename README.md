@@ -56,6 +56,7 @@ Untracked files:
 
 > git add .gitignore requirements.txt
 > git status
+> git add .
 > git status
 On branch master
 Your branch is up to date with 'origin/master'.
@@ -64,3 +65,19 @@ Changes to be committed:
   (use "git restore --staged <file>..." to unstage)
         new file:   .gitignore
         new file:   requirements.txt
+> > git commit -m "setup complete"
+[master 608461b] setup complete
+ 3 files changed, 176 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 requirements.txt
+ > git commit -m "setup complete"
+[master 608461b] setup complete
+ 3 files changed, 176 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 requirements.txt
+ > git push
+-- a bunch of lines --
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/sbecker11/kaggle-dbt.git
+   7b70f47..608461b  master -> master
+> git status
