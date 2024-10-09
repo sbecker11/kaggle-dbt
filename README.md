@@ -44,3 +44,23 @@ git branch -M master
 git remote add origin https://github.com/sbecker11/kaggle-dbt.git
 git push -u origin master
 # kaggle-dbt
+
+> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        requirements.txt
+
+> git add .gitignore requirements.txt
+> git status
+> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .gitignore
+        new file:   requirements.txt
